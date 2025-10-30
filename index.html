@@ -3,29 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samara Santos</title>
 </head>
 
-<body class="bg-gradient-to-b from-pink-400 to-yellow-100 bg-no-repeat h-screen font-[Lora]">
-    <header class="flex  justify-center m-2">
-        <h1 class="text-[30px] font size">Seja Bem vindo!</h1>
+<body class="m-0 p-0 bg-gradient-to-b from-green-400 to-yellow-100 bg-no-repeat min-h-screen font-[Lora]">
+    <header class="flex justify-center m-2">
+        <h1 class="text-[30px]">Seja Bem vindo!</h1>
     </header>
     <main class="flex flex-col">
-        <div>
-           
+        <div class="flex justify-center items-center">
+            <img src="./img/Samara-Santos.JPG" alt="samara-santos" class=" w-[250px] rounded-[10px]">
         </div>
-        <div>
+        <div class="flex items-center justify-center flex-col gap-1">
+            <h2 class="text-center flex text-[25px]">Samara Santos<br>Desenvolvedora FullStack!</h2>
+            <p class=" text-center text-[15px] mb-2">Sou desenvolvedora Full Stack com
+                experiência em HTML, CSS, Java e JavaScript, criando
+                soluções completas que unem design funcional e performance. Tenho foco em desenvolver aplicações
+                modernas, responsivas e eficientes — desde o front-end intuitivo até a lógica sólida do back-end.
+                Busco constantemente aprimorar minhas habilidades e transformar ideias em experiências digitais
+                reais e impactantes.</p>
         </div>
         <button>
-            <i></i>
+            <i class="fa-brands fa-instagram text-[20px]"></i>
             <span>Instangram</span>
         </button>
         <button>
+            <i class="fa-brands fa-github"></i>
             <span>GitHub</span>
         </button>
+        <section class="flex justify-between">
+            <button><i class="fa-solid fa-arrow-left" onclick=""></i></button>
+            <div class="m-5 w-[90%] h-[450px] border-2 rounded-[10px] border-black">
+            </div>
+            <div class="">
+            </div>
+            <div class="">
+            </div>
+            <button><i class="fa-solid fa-arrow-right" onclick=""></i></button>
+        </section>
     </main>
     <footer>
 
